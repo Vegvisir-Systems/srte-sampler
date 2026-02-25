@@ -10,21 +10,21 @@
 
 [Configuration](#Configuration)
 
-* [BGP configuration](#BGP configuration)
+* [BGP configuration](#BGP-configuration)
 
-* [Sampling configuration](#Sampling configuration)
+* [Sampling configuration](#Sampling-configuration)
 
-* [Telemetry configuration](#Telemetry configuration)
+* [Telemetry configuration](#Telemetry-configuration)
 
-* [Management configuration](#Management configuration)
+* [Management configuration](#Management-configuration)
 
-[Verification and troubleshooting](#Verification and troubleshooting)
+[Verification and troubleshooting](#Verification-and-troubleshooting)
 
-* [Telemetry and sampling](#Telemetry and sampling)
+* [Telemetry and sampling](#Telemetry-and-sampling)
 
 * [BGP](#BGP)
 
-[Supported OS](#Supported OS)
+[Supported OS](#Supported-OS)
 
 [Limitations](#Limitations)
 
