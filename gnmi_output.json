@@ -1,0 +1,144 @@
+update {
+  timestamp: 1767978358334414931
+  prefix {
+    elem {
+      name: "network-instances"
+    }
+    elem {
+      name: "network-instance"
+      key {
+        key: "name"
+        value: "DEFAULT"
+      }
+    }
+    elem {
+      name: "protocols"
+    }
+    elem {
+      name: "protocol"
+      key {
+        key: "name"
+        value: "DEFAULT"
+      }
+      key {
+        key: "identifier"
+        value: "ISIS"
+      }
+    }
+    elem {
+      name: "isis"
+    }
+    elem {
+      name: "levels"
+    }
+    elem {
+      name: "level"
+      key {
+        key: "level-number"
+        value: "2"
+      }
+    }
+    elem {
+      name: "link-state-database"
+    }
+    elem {
+      name: "lsp"
+      key {
+        key: "lsp-id"
+        value: "0006.0006.0006.00-00"
+      }
+    }
+    elem {
+      name: "tlvs"
+    }
+    elem {
+      name: "tlv"
+      key {
+        key: "type"
+        value: "EXTENDED_IS_REACHABILITY"
+      }
+    }
+    elem {
+      name: "extended-is-reachability"
+    }
+    elem {
+      name: "neighbors"
+    }
+    elem {
+      name: "neighbor"
+      key {
+        key: "system-id"
+        value: "0007.0007.0007"
+      }
+    }
+    elem {
+      name: "instances"
+    }
+    elem {
+      name: "instance"
+      key {
+        key: "id"
+        value: "0"
+      }
+    }
+    elem {
+      name: "subtlvs"
+    }
+    elem {
+      name: "subtlv"
+      key {
+        key: "type"
+        value: "TLV22_IPV4_NEIGHBOR_ADDRESS"
+      }
+    }
+  }
+  update {
+    path {
+      elem {
+        name: "type"
+      }
+    }
+    val {
+      json_val: "\"TLV22_IPV4_NEIGHBOR_ADDRESS\""
+    }
+  }
+  update {
+    path {
+      elem {
+        name: "state"
+      }
+      elem {
+        name: "type"
+      }
+    }
+    val {
+      json_val: "\"TLV22_IPV4_NEIGHBOR_ADDRESS\""
+    }
+  }
+  update {
+    path {
+      elem {
+        name: "ipv4-neighbor-address"
+      }
+      elem {
+        name: "state"
+      }
+      elem {
+        name: "address"
+      }
+    }
+    val {
+      leaflist_val {
+        element {
+          json_val: "\"10.100.11.7\""
+        }
+      }
+    }
+  }
+}
+extension {
+  registered_ext {
+    id: 1
+    msg: "\n\002R1\020\377\377\003\"\017sensor_1059_4_1*\023/network-instances/2\023/network-instances/:\003rpd@\345\204\200\001`\276\254\343\235\2723"
+  }
+}
