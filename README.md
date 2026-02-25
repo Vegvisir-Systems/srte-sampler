@@ -122,8 +122,11 @@ sampling options
 ```
 
 Sampling interval: how frequently SR-TE counter samples are collected
+
 Sampling database: file path for the sampling database file (can be on NFS). If not configured, SRTE sampler will create a local DB file in the docker container (/usr/local/sampler/srte_sampling.db)
+
 Adjust interval: how frequently SR policy bandwidth rates are adjusted (need to be at least 6 times the sampling interval)
+
 Adjust threshold (in percentage): how much the policy bandwidth needs to change to trigger adjustment
 
 
